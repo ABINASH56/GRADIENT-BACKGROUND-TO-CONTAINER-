@@ -1,0 +1,11 @@
+///THIS CODE IS USED TO ADD GRADIENT BACKGROUND COLOR 
+
+
+Container(
+          decoration: BoxDecoration(
+              gradient: LinearGradient(
+                  begin: Alignment.topRight,
+                  end: Alignment.bottomLeft,
+                  colors: [Colors.blue, Colors.red])),
+
+        )
